@@ -3,7 +3,7 @@ type: amqp
 status:
   class: exporter
   stability:
-    alpha: [logs]
+    alpha: [logs,traces,metrics]
   distributions: [core, contrib, k8s]
   codeowners:
     active: [syron]

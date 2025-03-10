@@ -7,10 +7,12 @@ import (
 )
 
 var (
-	Type      = component.MustNewType("nodinite")
-	ScopeName = "github.com/syron/nodiniteexporter/nodiniteexporter"
+	Type      = component.MustNewType("amqp")
+	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/amqpexporter"
 )
 
 const (
-	LogsStability = component.StabilityLevelAlpha
+	LogsStability    = component.StabilityLevelAlpha
+	TracesStability  = component.StabilityLevelAlpha
+	MetricsStability = component.StabilityLevelAlpha
 )
